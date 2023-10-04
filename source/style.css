@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/i/c/iceland_waterfall.jpg?crop=0%2C263%2C1600%2C880&wid=4000&hei=2200&scl=0.4');
+    background-size: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .black-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .black-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
