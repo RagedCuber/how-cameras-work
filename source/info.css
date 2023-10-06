@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+.left-container {
+    position: relative;
+    width: 70%;
+    height: 30%;
+    background-image: url(../assets/home-wallpaper.jpg);
+    background-size: cover;
+}
+  
+.header {
+    width: 99%;
+    padding: 0.5%;
+    background-color: #242625;
+    color:white;
+}
+  
+.important {
+    font-style: oblique;
+}
+  
+.home-button {
+    background-color: #242625;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Increase the padding to make the button bigger */
+    margin: 10px;
+    font-size: 15px; /* Increase the font size to make the text inside the button bigger */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+  
+.home-button:hover {
+    background-color: white;
+    color: #242625;
+}
+  
+
+footer {
+    background-color: black;
+    color: rgb(45, 45, 45);
+    padding: 100px;
+    text-align: center;
+}
