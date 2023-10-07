@@ -2,6 +2,18 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 300%;
+}
+h3 {
+    font-size: 150%;
+    line-height: 200%;
+}
+
 /*  
 .left-container {
     position: relative;
@@ -27,6 +39,7 @@ body {
 .left-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 300%;
 }
 
 .left-container .content {
@@ -45,7 +58,7 @@ body {
 
 
 .left-container .text {
-    max-width: 70%; /* Adjust this value as needed */
+    max-width: 50%; /* Adjust this value as needed */
     text-align: justify;
 }
 
@@ -67,6 +80,7 @@ body {
 .right-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 300%;
 }
 
 .right-container .content {
@@ -79,13 +93,14 @@ body {
 
 .right-container .side-pic img {
     max-width: 10%;
+    max-height: 5%;
     height: auto;
     margin-left: 10px; /* Adjust this value as needed */
 }
 
 
 .right-container .text {
-    max-width: 70%; /* Adjust this value as needed */
+    max-width: 50%; /* Adjust this value as needed */
     text-align: justify;
 }
 
