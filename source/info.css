@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-  
+/*  
 .left-container {
     position: relative;
     width: 70%;
@@ -10,7 +10,94 @@ body {
     background-image: url(../assets/home-wallpaper.jpg);
     background-size: cover;
 }
-  
+*/
+
+/* Center everything and make the layout clean */
+.left-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-container .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    gap: 20px; /* Add a gap between the image and text */
+}
+
+.left-container .side-pic img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; /* Adjust this value as needed */
+}
+
+
+.left-container .text {
+    max-width: 70%; /* Adjust this value as needed */
+    text-align: justify;
+}
+
+
+
+
+/* Center everything and make the layout clean */
+.right-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right-container .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    gap: 20px; /* Add a gap between the image and text */
+}
+
+.right-container .side-pic img {
+    max-width: 10%;
+    height: auto;
+    margin-left: 10px; /* Adjust this value as needed */
+}
+
+
+.right-container .text {
+    max-width: 70%; /* Adjust this value as needed */
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
 .header {
     width: 99%;
     padding: 0.5%;
